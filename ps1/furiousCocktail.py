@@ -8,6 +8,7 @@ Time
         3------
             2----
 
+
 Basically, I created an array counter time, where the indices map to the time in seconds. 
 
 I then applied the potions at each time to the time counter. 
@@ -48,3 +49,8 @@ if n in time:
     print('YES')
 else: 
     print('NO')
+
+
+'''
+SOLUTION 2 BY NGA
+'''
