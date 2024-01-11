@@ -19,9 +19,10 @@ def bubbleSort(lst):
         for i in range(n-1-r): 
             if lst[i] > lst[i+1]:
                 lst[i], lst[i+1] = lst[i+1], lst[i]
+                print(lst)
     return lst
 
-print(bubbleSort([14, 3, 12, 11, 5, 2, 1, 5, 100]))
+bubbleSort([2,1,5,3,4])
 
 '''
 Notes on time and space complexity:
